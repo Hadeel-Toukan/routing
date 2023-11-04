@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  list-style: none;
+  background-color: black;
+}
+li {
+  padding: 1rem;
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+a:hover{
+  color: yellow;
+}
+
+.center {
+  text-align: center;
+}
+img {
+  padding: 3rem 0rem;
+}
+
+h1{
+  padding: 1rem;
+}
+p{
+  text-wrap: wrap;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
